@@ -12,7 +12,7 @@ Local-first voice AI agent for a rehabilitation robot at Laurier's BioAdaptive I
 **[kddcup2026-data-agents-starter-kit](https://github.com/AmamiyaRenO/kddcup2026-data-agents-starter-kit)** · Python, LLM agents, SQL
 Data agent for KDD Cup 2026 DataAgent-Bench: answers natural-language questions over CSV, JSON, SQLite and documents, with schema-graph retrieval, answer contracts, candidate ranking and shape guards. Local evaluation on the public demo set: 0.80 / 0.74 / 0.55 average score on easy / medium / hard.
 
-### Research (code not public yet)
+### Research (code private)
 
 - **Evidence-grounded medical RAG**, with PHRI (McMaster University & Hamilton Health Sciences). Hybrid FAISS/BM25 retrieval, cross-encoder reranking and entailment checks behind an AI health-education avatar. Raised chunk Recall@5 from 72.1% to 86.4%, and grade-10 readability pass rate from 24% to 94%.
 - **LLM/VLM semantic filters in SQL at scale**, with a university professor. A fault-tolerant vLLM pipeline labeled 200K images (99.95% success, 0.53 s/image) and 7M reviews. Log-prob margin confidence auto-accepts 86.5% of labels at 97.9% agreement. Paper in preparation.
